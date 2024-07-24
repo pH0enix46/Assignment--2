@@ -348,6 +348,14 @@
     top: 5%;
     left: -22%;
   }
+
+  .extra-content p {
+    font-size: 1.3rem;
+  }
+
+  .extra-content p {
+    width: 85%;
+  }
 }
 /* ⛔️⛔️⛔️ */
 
