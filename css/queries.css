@@ -177,3 +177,125 @@
   }
 }
 /* ⛔️⛔️⛔️ */
+
+/* BELOW 730px(Small-Tablets)✅✅✅ */
+@media screen and (max-width: 37.5em) {
+  .hero {
+    max-width: 50rem;
+    gap: 2rem;
+  }
+
+  .hero-content h3 {
+    font-size: 5rem;
+    width: 70%;
+  }
+
+  .hero-content p {
+    margin-bottom: 4rem;
+  }
+
+  .bmi-chart {
+    width: 70%;
+  }
+
+  .bmi-calculate {
+    width: 100%;
+  }
+
+  .bmi-calculate p {
+    width: 90%;
+  }
+
+  .form input,
+  .form select {
+    width: 90%;
+  }
+
+  .join-contents::after {
+    top: 6%;
+    left: -13%;
+  }
+
+  .footer-contents {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 4rem;
+  }
+
+  .nav-col h5 {
+    font-size: 2.6rem;
+  }
+
+  .logo-col h2 {
+    font-size: 6rem;
+  }
+}
+/* ⛔️⛔️⛔️ */
+
+/* BELOW 730px(Phones)✅✅✅ */
+@media screen and (max-width: 34em) {
+  .nav div {
+    display: none;
+  }
+
+  .icon-mobile-nav {
+    display: block;
+    font-size: 5rem;
+    cursor: pointer;
+  }
+
+  .nav h2 {
+    font-size: 4rem;
+  }
+
+  .hero {
+    max-width: 48rem;
+    gap: 2.5rem;
+  }
+
+  .hero-content p {
+    width: 90%;
+  }
+
+  .one {
+    top: 10%;
+    right: -8%;
+  }
+
+  .two {
+    bottom: 42%;
+    left: -5%;
+  }
+
+  .extra-content h3 {
+    width: 70%;
+  }
+
+  .btn--extra {
+    width: 70%;
+    text-align: center;
+  }
+
+  .extra-content p {
+    width: 95%;
+  }
+
+  .extra-content-img img {
+    width: 100%;
+  }
+
+  .bmi-chart {
+    width: 80%;
+  }
+
+  .join-form input {
+    width: 85%;
+    font-size: 1.6rem;
+  }
+
+  .join-contents::after {
+    top: 5%;
+    left: -16%;
+  }
+}
+/* ⛔️⛔️⛔️ */

@@ -130,6 +130,10 @@ header {
   color: white !important;
 }
 
+.icon-mobile-nav {
+  display: none;
+}
+
 /* HERO */
 .hero {
   max-width: 120rem;
