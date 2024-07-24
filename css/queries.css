@@ -1,0 +1,179 @@
+/* BELOW 1300px(Smaller Desktops)✅✅✅ */
+@media screen and (max-width: 81.25em) {
+  .hero {
+    max-width: 100rem;
+    gap: 12rem;
+    padding: 0 2rem;
+  }
+}
+/* ⛔️⛔️⛔️ */
+
+/* BELOW 1100px(Smaller Desktops)✅✅✅ */
+@media screen and (max-width: 68.75em) {
+  .nav {
+    padding: 0 6rem;
+  }
+
+  .hero {
+    max-width: 90rem;
+    gap: 12rem;
+    padding: 0 1rem;
+  }
+
+  .hero-content h3 {
+    font-size: 4rem;
+  }
+
+  .hero-content p {
+    font-size: 1.4rem;
+  }
+
+  .btn--queries {
+    font-size: 1.6rem !important;
+  }
+}
+/* ⛔️⛔️⛔️ */
+
+/* BELOW 900px(Tablets)✅✅✅ */
+@media screen and (max-width: 56.25em) {
+  .nav {
+    margin-bottom: 2.5rem;
+  }
+
+  .hero {
+    max-width: 70rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hero-content h3 {
+    font-size: 5.6rem;
+    width: 70%;
+  }
+
+  .habits-contents {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+
+  .extra-contents {
+    gap: 6rem;
+  }
+
+  .extra-content p {
+    margin-bottom: 2rem;
+  }
+
+  .extra-content-img {
+    justify-content: flex-start;
+  }
+
+  .join-text-box {
+    padding: 6rem 2rem 4rem 8rem;
+  }
+
+  .join-text-box h2 {
+    font-size: 1.8rem;
+  }
+
+  .join-form label {
+    font-size: 1.3rem;
+  }
+
+  .join-form input {
+    width: 90%;
+    font-size: 1.4rem;
+  }
+
+  .btn--form {
+    font-size: 1.6rem;
+  }
+
+  .join-contents::after {
+    top: 8%;
+    left: -10%;
+  }
+
+  .bmi--grid {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 8rem;
+  }
+
+  .bmi-chart {
+    width: 60%;
+  }
+
+  .bmi-calculate {
+    width: 90%;
+  }
+
+  .bmi-chart h3 {
+    margin-bottom: 1rem;
+  }
+
+  .bmi-calculate p {
+    margin-bottom: 1rem;
+  }
+
+  .bmi-contents {
+    padding: 2rem;
+  }
+}
+/* ⛔️⛔️⛔️ */
+
+/* BELOW 730px(Tablets)✅✅✅ */
+@media screen and (max-width: 45.625em) {
+  .nav {
+    padding: 0 3rem;
+  }
+
+  .hero {
+    max-width: 60rem;
+    gap: 2rem;
+  }
+
+  .join-text-box h2 {
+    font-size: 1.6rem;
+  }
+
+  .join-form {
+    grid-template-columns: 1fr;
+  }
+
+  .join-contents {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .join-form input {
+    width: 70%;
+    font-size: 1.4rem;
+  }
+
+  .join-img {
+    order: -1;
+  }
+
+  .join-text-box {
+    padding: 3rem;
+  }
+
+  .join-contents::after {
+    top: 6%;
+    left: -10%;
+  }
+
+  .logo-col p {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .bmi-head p {
+    width: 70%;
+  }
+
+  .training-head p {
+    max-width: 70%;
+  }
+}
+/* ⛔️⛔️⛔️ */

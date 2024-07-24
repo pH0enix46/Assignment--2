@@ -70,7 +70,6 @@ body {
 
 /* HEADER✅✅✅ */
 header {
-  height: 95vh;
   background: linear-gradient(
     180deg,
     rgba(17, 17, 17, 0.6),
@@ -307,7 +306,7 @@ header {
   padding: 4rem 3rem;
   border-radius: 2rem;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4) ;
+  box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
 }
 
 .extra-content-img {
