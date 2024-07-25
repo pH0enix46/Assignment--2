@@ -7,6 +7,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   font-weight: 400;
   color: #eee;
   background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
 }
 /* ⛔️⛔️⛔️ */
 
@@ -222,6 +224,10 @@ header {
 
 .stylish-text {
   font-family: "Playwrite BE VLG", cursive;
+}
+
+.play-icon {
+  display: none;
 }
 /* ⛔️⛔️⛔️ */
 

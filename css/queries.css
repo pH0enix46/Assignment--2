@@ -428,6 +428,20 @@
   .join-text-box {
     padding: 2rem;
   }
+
+  .red-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .play-icon {
+    display: block;
+    height: 70%;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.6);
+    --ionicon-stroke-width: 4.5rem;
+  }
 }
 /* ⛔️⛔️⛔️ */
 
