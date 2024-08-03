@@ -413,8 +413,8 @@
   }
 
   .join-contents::after {
-    top: 3%;
-    left: -30%;
+    top: 5%;
+    left: -20%;
   }
 
   .join-text-box h2 {
@@ -441,6 +441,19 @@
     width: 70%;
     color: rgba(0, 0, 0, 0.6);
     --ionicon-stroke-width: 4.5rem;
+  }
+
+  .habits-head p {
+    text-align: start;
+  }
+
+  .join {
+    padding: 1rem;
+  }
+
+  .join-head {
+    font-size: 2.6rem;
+    text-align: start;
   }
 }
 /* ⛔️⛔️⛔️ */
@@ -548,7 +561,7 @@
 
   .join-contents::after {
     top: 4%;
-    left: -32%;
+    left: -28%;
   }
 
   .join-form input {
